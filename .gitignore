@@ -1,0 +1,39 @@
+# ─── Python ───────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ─── Virtual Environment ──────────────────────────────
+.env
+.venv
+env/
+venv/
+
+# ─── Model Artifacts (large binary, regenerate locally) ──
+Server/artifacts/best_coronary_artery_model.pkl
+Server/artifacts/coronary_model.pkl
+
+# ─── Jupyter Notebook ─────────────────────────────────
+Server/artifacts/CAD.ipynb
+.ipynb_checkpoints/
+
+# ─── Dataset (large file) ─────────────────────────────
+data/Coronary_artery.csv
+
+# ─── VS Code ──────────────────────────────────────────
+.vscode/
+
+# ─── OS Files ─────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Logs ─────────────────────────────────────────────
+*.log
+*.err
